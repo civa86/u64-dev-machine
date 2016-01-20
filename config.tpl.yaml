@@ -1,3 +1,11 @@
+##
+# CONFIGURATION TEMPLATE
+#
+# rename this file in config.yaml
+# set commented parameters
+# uncomment and set desired sections
+##
+
 vm:
   hostname: # set hostname
   network:
