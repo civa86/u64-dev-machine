@@ -1,7 +1,7 @@
 require "yaml"
 
 current_dir    = File.dirname(File.expand_path(__FILE__))
-params         = YAML.load_file("#{current_dir}/config.yml")
+params         = YAML.load_file("#{current_dir}/config.yaml")
 
 # Vagrant Configuration
 Vagrant.configure(2) do |config|
