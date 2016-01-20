@@ -1,0 +1,12 @@
+vm:
+  hostname: # set hostname
+  network:
+    type: # set networking type 'forwarded_port' | 'private_network'
+
+#    PRIVATE NETWORK PARAMETERS
+#    ip: 192.168.50.4
+
+#    FORWARDED PORT LIST
+#    ports:
+#      - { guest: 80, host: 8080, auto_correct: true }
+

@@ -1,0 +1,7 @@
+vm:
+  hostname: 'u64-lamp'
+  network:
+    type: 'forwarded_port'
+    ports:
+      - { guest: 80, host: 8080, auto_correct: true }
+
